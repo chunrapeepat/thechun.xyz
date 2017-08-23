@@ -1,0 +1,19 @@
+{
+  "name": "thechun.xyz",
+  "version": "1.0.0",
+  "description": "A simple blog website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Chun Rapeepat",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^3.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "2.0.0"
+  }
+}
