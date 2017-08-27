@@ -10,6 +10,7 @@ import IntroductionSection from '../components/introduction'
 import GotoTop from '../components/gototop'
 
 export default class extends React.Component {
+
   render(){
     return(
       <div>
