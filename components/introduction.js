@@ -12,6 +12,7 @@ const Container = styled.div`
   -o-background-size: cover;
   background-size: cover;
 
+
   ${this} > h1 {
     margin: 0;
     text-align: center;
@@ -21,8 +22,8 @@ const Container = styled.div`
     ${fontFamily}
 
     @media (max-width: 1190px) {
-      font-size: 30px;
-      padding-top: 70px;
+      font-size: 40px;
+      padding-top: 40px;
     }
   }
 
@@ -35,7 +36,7 @@ const Container = styled.div`
     ${fontFamilyHeading}
 
     @media (max-width: 1190px) {
-      font-size: 18px;
+      font-size: 22px;
     }
   }
 

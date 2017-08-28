@@ -24,10 +24,12 @@ const Container = styled.div`
     @media (min-width: 1300px) {
       width: 900px;
       margin: auto auto;
+      ${fontFamilyHeading}
     }
 
     @media (max-width: 1190px) {
       font-size: 20px;
+      ${fontFamilyHeading}
     }
   }
 

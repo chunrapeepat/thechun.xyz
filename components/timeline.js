@@ -74,12 +74,12 @@ export default class extends Component {
 
         <Card>
           <h2><span>2009</span>First Personal Computer<div></div></h2>
-          <span>When I was grade 5. My mom brought me my new own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM. I did everything that I want to make in it such as Installed Window 7 by myself, Made a 2D game & animation with Adobe Flash, package them on my flash-drive and gave to my neighbors. This is a start-line of my journey.</span>
+          <span>When I was grade 5. My mom brought me my new own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM. I did everything that I want to make in it. This is a start-line of my journey.</span>
         </Card>
 
         <Card>
           <h2><span>2010 - 2011</span>Make a YouTube Channel<div></div></h2>
-          <span>Someday on YouTube. I watched the video posted by Fredrew (The Rocket Jump on these days). It was so fascinating. This made me learn a lot about how to do effect on the video. I started learning what is Green Screen, Motion Tracking & more by using Adobe After Effect. And play around with my brother.</span>
+          <span>Someday on YouTube. I watched the video posted by Fredrew. It was so fascinating. This made me learn a lot about how to do effect on the video.using Adobe After Effect.</span>
         </Card>
 
         <Card>
@@ -89,12 +89,12 @@ export default class extends Component {
 
         <Card>
           <h2><span>2012</span>Started Programming Experience<div></div></h2>
-          <span>I started first programming experience when I was 14 years old. I started with HTML language because I make a Minecraft Server named Minecraft Hero Thailand. and I want my own web page for promote my server. Of course, I loved it. Then I started learning more in CSS, PHP & Javascript, that made me became to Full-Stack Web Developer.</span>
+          <span>I started first programming experience when I was 14 years old. I started with HTML language because I make my own Minecraft Server. and I want my own web page for promote my server. Of course, I loved it. Then I started learning more in CSS, PHP & Javascript, that made me became to Full-Stack Web Developer.</span>
         </Card>
 
         <Card>
           <h2><span>2014 - 2015</span>Run a VPS Bussiness<div></div></h2>
-          <span>I have a pretty much strong knowledge about how to open Minecraft Server and I have a little budget (because I was a freelance). I decided to make my own business about Minecraft named MineShare. I rent a dedicated server (approx 120$ per month) with Vmware ESXI OS. then 6 months later. This business was shutdown. because I got a fucking DDOS everyday and another reason is I have no money. GG T-T</span>
+          <span>I have a pretty much strong knowledge about how to open Minecraft Server and I have a little budget. I decided to make my own business about Minecraft named MineShare. I rent a dedicated server (approx 120$ per month) with Vmware ESXI OS. then 6 months later. This business was shutdown. because I got a fucking DDOS everyday. GG T-T</span>
         </Card>
 
         <Card>
@@ -114,7 +114,7 @@ export default class extends Component {
 
         <Card>
           <h2><span>2017</span>NoobProgrammer Thailand Community<div></div></h2>
-          <span>{`I'm so lonely when I go to college. because a lot of them don't know how to programming. Then, I decided to create this group to make a young person who loves in programming more connected.`}</span>
+          <span>{`I decided to create this group to make a young person who loves in programming more connected.`}</span>
         </Card>
 
       </Container>

@@ -128,8 +128,7 @@ export default class extends Component {
             <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>
             <a target="_blank" href="https://github.com/chunza2542">GITHUB PROFILE</a>
             <a target="_blank" href="https://facebook.com/chun42">FACEBOOK PROFILE</a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCIorcrKl6IpDIiB_5RfYqrg">YOUTUBE CHANNEL</a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCTfwvj9K0clmynu6lG2rfCQ">YT NOOBPROGRAMMING</a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCTfwvj9K0clmynu6lG2rfCQ">YOUTUBE CHANNEL</a>
           </MenuContainer>
         </div>
         <div>
@@ -145,8 +144,7 @@ export default class extends Component {
               <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>
               <a target="_blank" href="https://github.com/chunza2542">GITHUB PROFILE</a>
               <a target="_blank" href="https://facebook.com/chun42">FACEBOOK PROFILE</a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCIorcrKl6IpDIiB_5RfYqrg">YOUTUBE CHANNEL</a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCTfwvj9K0clmynu6lG2rfCQ">YT NOOBPROGRAMMING</a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCTfwvj9K0clmynu6lG2rfCQ">YOUTUBE CHANNEL</a>
             </div>
           </ResponsiveMenu>
           {this.props.children}
