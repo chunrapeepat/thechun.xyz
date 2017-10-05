@@ -6,7 +6,7 @@ const SidebarMenuContainer = styled.div`
   display: flex;
 
   ${this} > div:nth-child(1) {
-    width: 300px;
+    width: 250px;
     position: fixed;
     height: 100vh;
     background-color: black;
@@ -18,7 +18,7 @@ const SidebarMenuContainer = styled.div`
 
   ${this} > div:nth-child(2) {
     flex: 1;
-    margin-left: 300px;
+    margin-left: 250px;
     display: block;
     overflow: hidden;
 

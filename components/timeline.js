@@ -69,17 +69,17 @@ export default class extends Component {
 
         <Card>
           <h2><span>2005</span>Studied Elementary School<div></div></h2>
-          <span>Studied Elementary School named Somapa 2 School. It was so funny when I looked back at that time. I do fucking things such as I grab a wood stick from my garden, burn it, make a pencil and sell it to my friend at school as my own brand called Mr.Chun</span>
+          <span>Studied Elementary School at Somapa 2 School.</span>
         </Card>
 
         <Card>
           <h2><span>2009</span>First Personal Computer<div></div></h2>
-          <span>When I was grade 5. My mom brought me my new own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM. I did everything that I want to make in it. This is a start-line of my journey.</span>
+          <span>When I was grade 5. My mom brought me my own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM.</span>
         </Card>
 
         <Card>
           <h2><span>2010 - 2011</span>Make a YouTube Channel<div></div></h2>
-          <span>Someday on YouTube. I watched the video posted by Fredrew. It was so fascinating. This made me learn a lot about how to do effect on the video.using Adobe After Effect.</span>
+          <span>Someday on YouTube. I watched the video posted by Fredrew. It was so fascinating. This made me learn a lot about how to do effect on the video using Adobe After Effect.</span>
         </Card>
 
         <Card>
@@ -89,7 +89,7 @@ export default class extends Component {
 
         <Card>
           <h2><span>2012</span>Started Programming Experience<div></div></h2>
-          <span>I started first programming experience when I was 14 years old. I started with HTML language because I make my own Minecraft Server. and I want my own web page for promote my server. Of course, I loved it. Then I started learning more in CSS, PHP & Javascript, that made me became to Full-Stack Web Developer.</span>
+          <span>I started first programming experience when I was 14 years old. I started with HTML language because I make a Minecraft Server. and I want my own web page for promote my server. Of course, I loved it. Then I started learning more in CSS, PHP & Javascript</span>
         </Card>
 
         <Card>
@@ -104,17 +104,22 @@ export default class extends Component {
 
         <Card>
           <h2><span>2016</span>Torkla Project by SCB Foundation<div></div></h2>
-          <span>{`Fortunately, My friend at my middle school invited me to run a project (A video game made by Unity named Our Darkest Night) with him. In Tokla camp, I learned a lot from it. I learn how to do project management, UX, UI, I learned how to present and The most important is I met a variety of people who loved what they did.`}</span>
+          <span>{`Fortunately, My friend at my middle school invited me to run a project (A video game made by Unity named Our Darkest Night) with him. In Tokla camp, I learned a lot from it. I learn how to do project management, UX, UI, I learned how to present and The most important is I met a variety of people who loved in what they did.`}</span>
         </Card>
 
         <Card>
           <h2><span>2017</span>Go To College<div></div></h2>
-          <span>I studied at Kasetsart University in Computer Science program.</span>
+          <span>Studied at Kasetsart University in Computer Science program.</span>
         </Card>
 
         <Card>
           <h2><span>2017</span>NoobProgrammer Thailand Community<div></div></h2>
           <span>{`I decided to create this group to make a young person who loves in programming more connected.`}</span>
+        </Card>
+
+        <Card>
+          <h2><span>2017</span>Stupid Hackathon Thailand<div></div></h2>
+          <span>Organise a Stupid Hackathon event at NabLab Bangkok, Thailand. Make stuff that no one needs and make terrible ideas come true!</span>
         </Card>
 
       </Container>
