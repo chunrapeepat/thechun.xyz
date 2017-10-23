@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "deploy": "scp -r /Users/chunza2542/Documents/thechun.xyz/out root@thechun.xyz:/opt/web/out"
   },
   "author": "Chun Rapeepat",
   "license": "MIT",
