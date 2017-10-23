@@ -58,7 +58,7 @@ export default class extends Component {
   render(){
     return(
       <Container>
-        <h1>{`Hi! I'm Chun Rapeepat, Nice to meet you here. I'm the one who loved in computer such as Web Technology, Machine Learning, etc. and also interested in Mathematic, StartUp & Bussiness too.`}</h1>
+        <h1>{`Hi! I'm Chun Rapeepat, Nice to meet you here. I'm the one who interested in computer such as Web Technology, Machine Learning, etc. and also in Mathematic, StartUp & Bussiness too.`}</h1>
         <a target='_blank' href='https://facebook.com/chun42'><i className="zmdi zmdi-facebook-box"></i> FIND CHUN RAPEEPAT ON FACEBOOK</a>
       </Container>
     )

@@ -64,17 +64,17 @@ export default class extends Component {
       <Container>
         <Card>
           <h2><span>1999</span>Start Point<div></div></h2>
-          <span>I was born in Bangkok, Thailand on 1999 May 9.</span>
+          <span>I was born in Bangkok, Thailand on May 9th, 1999</span>
         </Card>
 
         <Card>
           <h2><span>2005</span>Studied Elementary School<div></div></h2>
-          <span>Studied Elementary School at Somapa 2 School.</span>
+          <span>Started studying at Somapa 2 School.</span>
         </Card>
 
         <Card>
           <h2><span>2009</span>First Personal Computer<div></div></h2>
-          <span>When I was grade 5. My mom brought me my own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM.</span>
+          <span>When I was grade 5, I got my first own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM.</span>
         </Card>
 
         <Card>

@@ -56,7 +56,7 @@ export default class extends Component {
   }
 
   toggleActive(){
-    this.setState({ active: !this.state.active })
+    this.setState({ active: !this.state })
   }
 
   render(){
