@@ -78,8 +78,8 @@ export default class extends Component {
         </Card>
 
         <Card>
-          <h2><span>2010 - 2011</span>Make a YouTube Channel<div></div></h2>
-          <span>Someday on YouTube. I watched the video posted by Fredrew. It was so fascinating. This made me learn a lot about how to do effect on the video using Adobe After Effect.</span>
+          <h2><span>2010 - 2011</span>Made a YouTube Channel<div></div></h2>
+          <span>Someday on YouTube. I watched the video posted by Fredrew. It was so fascinating. This made me learn a lot about how to do effect on the video using Adobe After Effects.</span>
         </Card>
 
         <Card>
