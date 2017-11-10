@@ -99,6 +99,11 @@ export default class extends Component {
         </Card>
 
         <Card>
+          <h2><span>2015 - 2016</span>Web Developer Freelancer<div></div></h2>
+          <span>In 2015 - 2016, I am a freelance in web developer. I made a Facebook fanpage and made a lot of websites such as VPS service website, webshop (web application) and more. I make a lot of money from this.</span>
+        </Card>
+
+        <Card>
           <h2><span>2016</span>NoobProgramming YouTube Channel<div></div></h2>
           <span>{`I created my new YouTube channel named NoobProgramming. I created this for a person who just started in computer programming and doesn't know how to go.`}</span>
         </Card>
@@ -121,6 +126,11 @@ export default class extends Component {
         <Card>
           <h2><span>2017</span>Stupid Hackathon Thailand<div></div></h2>
           <span>Organise a Stupid Hackathon event at NabLab Bangkok, Thailand. Make stuff that no one needs and make terrible ideas come true!</span>
+        </Card>
+
+        <Card>
+          <h2><span>2017</span>KU-NAVI Project<div></div></h2>
+          <span>In Kasetsart University. I make a project with my friend call KU-NAVI (you can see on my Github). KU-NAVI is the web application that can helps you find place, location & bus line in university based on QRCode poster.</span>
         </Card>
 
       </Container>
