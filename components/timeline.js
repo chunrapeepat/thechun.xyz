@@ -21,6 +21,7 @@ const Card = styled.div`
   transition: 0.3s;
   padding: 20px;
   margin-bottom: 20px;
+  position: relative;
 
   @media (max-width: 1190px) {
     width: calc(100% - 60px);

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import Ink from 'react-ink'
 import { fontFamilyHeading } from '../core/styled'
 
 const Container = styled.div`
@@ -36,9 +37,12 @@ const Container = styled.div`
   ${this} > a {
     color: white;
     font-family: sans-serif;
-    display: block;
-    padding-top: 50px;
+    margin-top: 30px;
+    border-radius: 7px;
+    padding: 15px 25px;
+    display: inline-block;
     text-decoration: none;
+    position: relative;
 
     &:hover {
       color: #B483EA;
@@ -59,7 +63,10 @@ export default class extends Component {
     return(
       <Container>
         <h1>{`Hi! I'm Chun Rapeepat, Nice to meet you here. I'm the one who interested in computer such as Web Technology, Machine Learning, etc. and also in Mathematic, StartUp & Bussiness too.`}</h1>
-        <a target='_blank' href='https://facebook.com/chun42'><i className="zmdi zmdi-facebook-box"></i> FIND CHUN RAPEEPAT ON FACEBOOK</a>
+        <a target='_blank' href='https://facebook.com/chun42'>
+          <Ink />
+          <i className="zmdi zmdi-facebook-box"></i> FIND CHUN RAPEEPAT ON FACEBOOK
+        </a>
       </Container>
     )
   }
