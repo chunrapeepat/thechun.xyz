@@ -56,13 +56,13 @@ export default class extends Component {
   }
 
   toggleActive(){
-    this.setState({ active: !this.state })
+    this.setState({ active: !this.state.active })
   }
 
   render(){
     return(
       <Container>
-        <h1>Make The World Suck <span onClick={() => this.toggleActive()}>{this.state.active ? 'Less' : 'More'}</span></h1>
+        <h1>Make The World Suck <span style={{'cursor': 'pointer'}} onClick={() => this.toggleActive()}>{this.state.active ? 'Less' : 'More'}</span></h1>
         <span>{`Make everything come true with two hands and one computer.`}</span>
       </Container>
     )
