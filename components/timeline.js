@@ -143,9 +143,15 @@ export default class extends Component {
         </Card>
 
         <Card>
-          <Ink /> 
+          <Ink />
           <h2><span>2017</span>KU-NAVI Project<div></div></h2>
           <span>In Kasetsart University. I make a project with my friend call KU-NAVI (you can see on my Github). KU-NAVI is the web application that can helps you find place, location & bus line in university based on QRCode poster.</span>
+        </Card>
+
+        <Card>
+          <Ink />
+          <h2><span>2017</span>Internship at Acourse.io<div></div></h2>
+          <span>Software development internship traning at Acourse.io (e-learning online platform in cheap price), This made me learn a lot about Golang, Scrum and how to working with the team.</span>
         </Card>
 
       </Container>
