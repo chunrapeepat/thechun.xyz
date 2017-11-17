@@ -122,7 +122,7 @@ export default class extends Component {
     return(
       <SidebarMenuContainer>
         <div>
-          <MainHeading>THE CHUN</MainHeading>
+          <MainHeading onClick={() => this.props.lightFunction()}>THE CHUN</MainHeading>
           <MenuContainer>
             <a style={{'color': 'white'}} href="#">ABOUT ME</a>
             <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>

@@ -34,9 +34,8 @@ export default class extends React.Component {
   render(){
     return(
       <Container
-        scale={this.state.scale}
-        onClick={() => this.toggleGrayscale()}>
-        <SidebarMenu>
+        scale={this.state.scale}>
+        <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
           <GotoTop />
           <IntroductionSection />
           <AboutmeSection />
