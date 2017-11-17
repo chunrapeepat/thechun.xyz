@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#000" />
           <meta name="description" content="Hi! I'm Chun Rapeepat, Nice to meet you here. I'm the one who loved in computer such as Web Technology, Machine Learning, etc. and also interested in Mathematic, StartUp & Bussiness too."/>
           <meta name="keywords" content="chun, chunza2542, Chun Rapeepat, Programming, NoobProgramming, NoobProgrammer, thechun, resume, portfolio, site"/>
+          <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
           {styleTags}
           <style>{`body, html { margin: 0; }
             ::selection { background: #333; color: white; }
