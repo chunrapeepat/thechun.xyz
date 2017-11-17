@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components'
 
 import SidebarMenu from '../components/sidebarmenu'
 import AboutmeSection from '../components/aboutme'
@@ -9,11 +10,32 @@ import IntroductionSection from '../components/introduction'
 
 import GotoTop from '../components/gototop'
 
+const Container = styled.div`
+  filter: grayscale(${props => props.scale});
+  transition: 0.3s;
+`
+
 export default class extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      scale: '0%'
+    }
+  }
+
+  toggleGrayscale() {
+    if (this.state.scale === '0%') {
+      this.setState({ scale: '100%' })
+    } else {
+      this.setState({ scale: '0%' })
+    }
+  }
 
   render(){
     return(
-      <div>
+      <Container
+        scale={this.state.scale}
+        onClick={() => this.toggleGrayscale()}>
         <SidebarMenu>
           <GotoTop />
           <IntroductionSection />
@@ -22,7 +44,7 @@ export default class extends React.Component {
           <TimelineSection />
           <FooterSection />
         </SidebarMenu>
-      </div>
+      </Container>
     )
   }
 }
