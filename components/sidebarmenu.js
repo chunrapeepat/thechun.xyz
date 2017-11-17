@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styled, {injectGlobal} from 'styled-components'
+import styled from 'styled-components'
 import { fontFamily, padding, fontFamilyHeading } from '../core/styled'
 
 const SidebarMenuContainer = styled.div`
@@ -107,11 +107,9 @@ export default class extends Component {
     super()
     this.state = {
       top: '-100vh',
-      grayscale: false
-      ,
     }
   }
-  
+
   toggleMenu(){
     if(this.state.top === '-100vh'){
       this.setState({ top: '0' })
@@ -120,22 +118,11 @@ export default class extends Component {
     }
   }
 
-  toggleGrayscale() {
-    this.setState({
-      grayscale: !this.state.grayscale
-    })
-  }
-
   render(){
-    injectGlobal`
-      body {
-        filter: grayscale(${(this.state.grayscale)  ? '100%' : '0%'})!important;
-      }
-    `
     return(
       <SidebarMenuContainer>
         <div>
-          <MainHeading onClick={() => this.toggleGrayscale()}>THE CHUN</MainHeading>
+          <MainHeading>THE CHUN</MainHeading>
           <MenuContainer>
             <a style={{'color': 'white'}} href="#">ABOUT ME</a>
             <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>
