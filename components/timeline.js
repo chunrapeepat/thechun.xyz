@@ -79,7 +79,7 @@ export default class extends Component {
         <Card>
           <Ink />
           <h2><span>2009</span>First Personal Computer<div></div></h2>
-          <span>When I was grade 5, I got my first own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM.</span>
+          <span>When I was in 5 grade, I got my first own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM.</span>
         </Card>
 
         <Card>
@@ -91,31 +91,31 @@ export default class extends Component {
         <Card>
           <Ink />
           <h2><span>2011</span>Middle School<div></div></h2>
-          <span>Studied primary school at Bodindecha 2 School. In this school I have a lot of friends with variety of background and I met some friends who loved in computer like me.</span>
+          <span>Studied primary school at Bodindecha 2 School. In this school I have a lot of friends with variety of background and I meet some friends who loved computers like me.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2012</span>Started Programming Experience<div></div></h2>
-          <span>I started first programming experience when I was 14 years old. I started with HTML language because I make a Minecraft Server. and I want my own web page for promote my server. Of course, I loved it. Then I started learning more in CSS, PHP & Javascript</span>
+          <span>I started first programming experience when I was 14 years old. I started with HTML language because I make a Minecraft Server. and I wanted my own web page for promote it. Of course, I loved it. Then I started learning more in CSS, PHP & Javascript</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2014 - 2015</span>Run a VPS Bussiness<div></div></h2>
-          <span>I have a pretty much strong knowledge about how to open Minecraft Server and I have a little budget. I decided to make my own business about Minecraft named MineShare. I rent a dedicated server (approx 120$ per month) with Vmware ESXI OS. then 6 months later. This business was shutdown. because I got a fucking DDOS everyday. GG T-T</span>
+          <span>I had a pretty much strong knowledge about how to open Minecraft Server and I had a little budget. I decided to make my own business about Minecraft named MineShare. I rented a dedicated server (approx 120$ per month) with Vmware ESXI OS. then 6 months later. This business was shutdown. because I got a fucking DDOS everyday. GG T-T</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2015 - 2016</span>Web Developer Freelancer<div></div></h2>
-          <span>In 2015 - 2016, I am a freelance in web developer. I made a Facebook fanpage and made a lot of websites such as VPS service website, webshop (web application) and more. I make a lot of money from this.</span>
+          <span>In 2015 - 2016, I am a freelance web developer. I made a Facebook fanpage and made a lot of websites such as VPS service website, webshop (web application) and more. I make a lot of money from this.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2016</span>NoobProgramming YouTube Channel<div></div></h2>
-          <span>{`I created my new YouTube channel named NoobProgramming. I created this for a person who just started in computer programming and doesn't know how to go.`}</span>
+          <span>{`I created my new YouTube channel named NoobProgramming. I created this for a people who just started in computer programming and doesn't know how to go.`}</span>
         </Card>
 
         <Card>
@@ -133,7 +133,7 @@ export default class extends Component {
         <Card>
           <Ink />
           <h2><span>2017</span>NoobProgrammer Thailand Community<div></div></h2>
-          <span>{`I decided to create this group to make a young person who loves in programming more connected.`}</span>
+          <span>{`I decided to create this group to make a young people who loves in programming more connected.`}</span>
         </Card>
 
         <Card>

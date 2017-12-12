@@ -83,11 +83,11 @@ export default class extends Component {
           </center>
           <Heading>My Personal Skills</Heading>
           <ContentSkillContainer>
-            <h2>COMPUTER SKILL</h2>
+            <h2>COMPUTER SKILLS</h2>
             <span>PHP, Javascript, Modern Javascript, HTML5, CSS, SQL, Java, Python, NodeJS, ExpressJS, React & Redux, React Native, MongoDB, Socket.IO, Basic Machine Learning, Docker & Golang</span>
           </ContentSkillContainer>
           <ContentSkillContainer>
-            <h2>ORTHER SKILL</h2>
+            <h2>ORTHER SKILLS</h2>
             <span>Programming Instructor, Basic Photoshop, Minecraft, ScreenFlow, Blog Writting & Bussiness Knowledge</span>
           </ContentSkillContainer>
           <ContentSkillContainer>
