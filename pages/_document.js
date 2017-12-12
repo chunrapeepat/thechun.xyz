@@ -25,6 +25,13 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"/>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
           <meta name="viewport" content="width=device-width" />
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77270777-2"></script>
+          <script dangerouslySetInnerHTML={{__html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-77270777-2');`}}/>
         </Head>
         <body>
           <div className="root">
