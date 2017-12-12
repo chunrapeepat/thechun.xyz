@@ -128,7 +128,7 @@ export default class extends Component {
             <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>
             <a target="_blank" href="https://github.com/chunza2542">GITHUB PROFILE</a>
             <a target="_blank" href="https://facebook.com/chun42">FACEBOOK PROFILE</a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCTfwvj9K0clmynu6lG2rfCQ">YOUTUBE CHANNEL</a>
+            <a target="_blank" href="https://www.linkedin.com/in/chun-r-0a67ab134/">LINKED-IN PROFILE</a>
           </MenuContainer>
         </div>
         <div>
@@ -144,7 +144,7 @@ export default class extends Component {
               <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>
               <a target="_blank" href="https://github.com/chunza2542">GITHUB PROFILE</a>
               <a target="_blank" href="https://facebook.com/chun42">FACEBOOK PROFILE</a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCTfwvj9K0clmynu6lG2rfCQ">YOUTUBE CHANNEL</a>
+              <a target="_blank" href="https://www.linkedin.com/in/chun-r-0a67ab134/">LINKED-IN PROFILE</a>
             </div>
           </ResponsiveMenu>
           {this.props.children}

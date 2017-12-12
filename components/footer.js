@@ -30,7 +30,7 @@ export default class extends Component {
       <Container>
         <a href="https://facebook.com/chun42" target="_blank"><i className="zmdi zmdi-facebook-box"></i></a>
         <a href="https://github.com/chunza2542" target="_blank"><i className="zmdi zmdi-github"></i></a>
-        <a href="https://www.youtube.com/channel/UCTfwvj9K0clmynu6lG2rfCQ" target="_blank"><i className="zmdi zmdi-youtube-play"></i></a>
+        <a href="https://www.linkedin.com/in/chun-r-0a67ab134/" target="_blank"><i className="zmdi zmdi-linkedin-box"></i></a>
         <br/>Made by Chun Rapeepat, 2017.
       </Container>
     )
