@@ -19,7 +19,6 @@ const Container = styled.div`
     color: white;
     padding-top: 100px;
     font-size: 45px;
-    ${fontFamily}
 
     @media (max-width: 1190px) {
       font-size: 40px;
@@ -63,7 +62,7 @@ export default class extends Component {
     return(
       <Container>
         <h1>Make The World Suck <span style={{'cursor': 'pointer'}} onClick={() => this.toggleActive()}>{this.state.active ? 'Less' : 'More'}</span></h1>
-        <span>{`Make everything come true with two hands and one computer.`}</span>
+        <span>{`Full-stack developer who develop people life with coding.`}</span>
       </Container>
     )
   }
