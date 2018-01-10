@@ -127,6 +127,7 @@ export default class extends Component {
             <a style={{'color': 'white'}} href="#">ABOUT ME</a>
             <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>
             <a target="_blank" href="https://github.com/chunza2542">GITHUB PROFILE</a>
+            <a target="_blank" href="https://twitter.com/chunza2542">TWITTER PROFILE</a>
             <a target="_blank" href="https://facebook.com/chun42">FACEBOOK PROFILE</a>
             <a target="_blank" href="https://www.linkedin.com/in/chun-r-0a67ab134/">LINKED-IN PROFILE</a>
           </MenuContainer>
@@ -143,6 +144,7 @@ export default class extends Component {
               <a style={{'color': 'white'}} href="#">ABOUT ME</a>
               <a target="_blank" href="https://medium.com/chunza2542">MEDIUM BLOG</a>
               <a target="_blank" href="https://github.com/chunza2542">GITHUB PROFILE</a>
+              <a target="_blank" href="https://twitter.com/chunza2542">TWITTER PROFILE</a>
               <a target="_blank" href="https://facebook.com/chun42">FACEBOOK PROFILE</a>
               <a target="_blank" href="https://www.linkedin.com/in/chun-r-0a67ab134/">LINKED-IN PROFILE</a>
             </div>
