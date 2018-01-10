@@ -154,6 +154,24 @@ export default class extends Component {
           <span>Software development internship traning at Acourse.io (e-learning online platform in cheap price), This made me learn a lot about Golang, Scrum and how to working with the team.</span>
         </Card>
 
+        <Card>
+          <Ink />
+          <h2><span>2017</span>Teacher Assistant @CodeCampTH<div></div></h2>
+          <span>CodeCampTH (at Software Park) is a developer bootcamp that teaching web programming technologies & tools. I got an opportunity to work on this for 5 days and that earn me for 5,000 THB (approx 155$). Nice~</span>
+        </Card>
+
+        <Card>
+          <Ink />
+          <h2><span>2017</span>KU Grade Report Beautifier<div></div></h2>
+          <span>A grade report beautifier web-application for all Kasetsart University students. our goal is to make a report more beautiful, readable and simple than the old one. See this project on my Github :)</span>
+        </Card>
+
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Young Webmaster Camp 15<div></div></h2>
+          <span>HNY 2018 with the greatest camp forever. YWC is a webmaster camp that separates all candidates into 4 sections (programming, marketting, design, content). I made a lot of friends & connections. I do a startup project with my friends called RARTY and I love it.</span>
+        </Card>
+
       </Container>
     )
   }
