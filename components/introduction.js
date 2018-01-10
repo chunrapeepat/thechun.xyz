@@ -62,7 +62,7 @@ export default class extends Component {
     return(
       <Container>
         <h1>Make The World Suck <span style={{'cursor': 'pointer'}} onClick={() => this.toggleActive()}>{this.state.active ? 'Less' : 'More'}</span></h1>
-        <span>{`Full-stack developer who develop people life with coding.`}</span>
+        <span>{`The developer who build a software with passionate.`}</span>
       </Container>
     )
   }
