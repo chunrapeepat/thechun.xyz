@@ -5,7 +5,7 @@ import { fontFamilyHeading } from '../core/styled'
 
 const Container = styled.div`
   width: 100%;
-  background: #F6F6F6;
+  background: white;
   overflow: hidden;
   position: relative;
   padding: 50px 0;
@@ -17,8 +17,9 @@ const Container = styled.div`
 
 const Card = styled.div`
   width: 600px;
-  background: white;
+  background: #fafafa;
   margin: auto auto;
+  cursor: pointer;
   transition: 0.3s;
   padding: 20px;
   margin-bottom: 20px;
@@ -33,6 +34,8 @@ const Card = styled.div`
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.22);
     -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.22);
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.22);
+    transform: scale(1.05);
+    z-index: 99999999;
   }
 
   ${this} > span {

@@ -1,72 +1,51 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import Ink from 'react-ink'
+
+import SkillSidebar from './element/SkillSidebar'
 import { fontFamilyHeading } from '../core/styled'
 
 const Container = styled.div`
-  background: #553E6E;
-  width: calc(100% - 160px);
-  padding: 80px;
-  text-align: center;
+  background: #F4EDF5;
+  margin-top: 30px;
+  width: 100%;
 
   @media (max-width: 1190px) {
-    width: calc(100% - 40px);
-    padding: 50px 20px;
-    padding-bottom: 70px;
+      margin-top: 0px;
   }
+`
 
-  ${this} > h1 {
-    color: white;
-    margin: 0;
-    font-weight: 300;
-    font-size: 25px;
-    ${fontFamilyHeading}
+const Padding = styled.div`
+    padding: 50px 230px;
+`
 
-    @media (min-width: 1300px) {
-      width: 900px;
-      margin: auto auto;
-      ${fontFamilyHeading}
+const Flex = styled.div`
+    display: flex;
+
+    & > div:nth-child(1) {
+        flex: 1;
+        background: green;
     }
-
-    @media (max-width: 1190px) {
-      font-size: 20px;
-      ${fontFamilyHeading}
+    & > div:nth-child(2) {
+        width: 250px;
+        margin-left: 70px;
     }
-  }
-
-  ${this} > a {
-    color: white;
-    font-family: sans-serif;
-    margin-top: 30px;
-    border-radius: 7px;
-    padding: 15px 25px;
-    display: inline-block;
-    text-decoration: none;
-    position: relative;
-
-    &:hover {
-      color: #B483EA;
-    }
-
-    ${this} > i {
-      margin-right: 7px;
-    }
-
-    @media (max-width: 1190px) {
-      padding-top: 30px;
-    }
-  }
 `
 
 export default class extends Component {
   render(){
     return(
       <Container>
-        <h1>{`Hi! I'm Chun Rapeepat, Nice to meet you here. I'm interested in things related to computers such as Web Technology, Machine Learning, etc. and also in Mathematic, StartUp & Bussiness too.`}</h1>
-        <a target='_blank' href='https://facebook.com/chun42'>
-          <Ink />
-          <i className="zmdi zmdi-facebook-box"></i> FIND CHUN RAPEEPAT ON FACEBOOK
-        </a>
+          <Padding>
+              <Flex>
+                  <div>
+                      this
+                  </div>
+                  <div>
+                      <SkillSidebar />
+                  </div>
+              </Flex>
+          </Padding>
       </Container>
     )
   }
