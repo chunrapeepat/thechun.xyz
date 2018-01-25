@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import SidebarMenu from '../components/sidebarmenu'
+import SkillSection from '../components/skill'
 import AboutmeSection from '../components/aboutme'
 import AbilitySection from '../components/ability'
 import FooterSection from '../components/footer'
@@ -40,6 +41,7 @@ export default class extends React.Component {
           <IntroductionSection />
           <AboutmeSection />
           <AbilitySection />
+          <SkillSection />
           <TimelineSection />
           <FooterSection />
         </SidebarMenu>
