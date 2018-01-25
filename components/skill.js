@@ -17,6 +17,10 @@ const Container = styled.div`
 
 const Padding = styled.div`
     padding: 50px 230px;
+
+    @media (max-width: 1500px) {
+        padding: 50px 80px;
+    }
 `
 
 const Flex = styled.div`
