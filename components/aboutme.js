@@ -4,7 +4,7 @@ import Ink from 'react-ink'
 import { fontFamilyHeading } from '../core/styled'
 
 const Container = styled.div`
-  background: #553E6E;
+  background: #372C49;
   width: calc(100% - 160px);
   padding: 80px;
   text-align: center;
@@ -62,7 +62,7 @@ export default class extends Component {
   render(){
     return(
       <Container>
-        <h1>{`Hi! I'm Chun Rapeepat, Nice to meet you here. I'm interested in things related to computers such as Web Technology, Machine Learning, etc. and also in Mathematic, StartUp & Bussiness too.`}</h1>
+        <h1>{`Hello, I'm Chun Rapeepat, 18 years old full-stack developer from Thailand. Our mission is to build software for solving problems & expand the circle with communities.`}</h1>
         <a target='_blank' href='https://facebook.com/chun42'>
           <Ink />
           <i className="zmdi zmdi-facebook-box"></i> FIND CHUN RAPEEPAT ON FACEBOOK

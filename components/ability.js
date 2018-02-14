@@ -4,7 +4,7 @@ import { Heading } from '../core/styled'
 
 const OuterContainer = styled.div`
     box-sizing: border-box;
-    border-top: 35px solid #51406B;
+    border-top: 10px solid #372C49;
     background: #f1f1f1;
 `
 
