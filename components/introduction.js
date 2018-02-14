@@ -36,11 +36,13 @@ const Container = styled.div`
 
     @media (max-width: 1190px) {
       font-size: 22px;
+      ${fontFamilyHeading}
     }
   }
 
   @media (max-width: 1190px) {
     height: 250px;
+    ${fontFamilyHeading}
   }
 `
 
@@ -62,7 +64,7 @@ export default class extends Component {
     return(
       <Container>
         <h1>Make The World Suck <span style={{'cursor': 'pointer'}} onClick={() => this.toggleActive()}>{this.state.active ? 'Less' : 'More'}</span></h1>
-        <span>{`The developer who build a software with passionate.`}</span>
+        <span>{`Full-stack developer, Solving problem & Making communities.`}</span>
       </Container>
     )
   }
