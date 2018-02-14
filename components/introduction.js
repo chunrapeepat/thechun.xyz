@@ -26,6 +26,7 @@ const SlideBackground = styled.div`
     background-size: 100% auto;
 
     @media (min-width: 1190px) {
+      height: 500px;
       animation: ${slideAnimation} 40s linear infinite;
       animation-direction: alternate;
     }
@@ -39,16 +40,27 @@ const Container = styled.div`
   z-index: 9999;
   overflow: hidden;
 
+  @media (min-width: 1190px) {
+    height: 500px;
+    animation: ${slideAnimation} 40s linear infinite;
+    animation-direction: alternate;
+  }
+
   ${this} > h1 {
     margin: 0;
     text-align: center;
     color: white;
     padding-top: 100px;
     font-size: 45px;
+    padding-top: 220px;
 
     @media (max-width: 1190px) {
       font-size: 40px;
-      padding-top: 40px;
+      padding-top: 70px;
+    }
+
+    @media (max-width: 700px) {
+        font-size: 25px;
     }
   }
 
@@ -63,6 +75,10 @@ const Container = styled.div`
     @media (max-width: 1190px) {
       font-size: 22px;
       ${fontFamilyHeading}
+    }
+
+    @media (max-width: 700px) {
+        font-size: 20px;
     }
   }
 
