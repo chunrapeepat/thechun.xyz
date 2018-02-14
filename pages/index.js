@@ -41,7 +41,7 @@ export default class extends React.Component {
           <IntroductionSection />
           <AboutmeSection />
           <AbilitySection />
-          <SkillSection />
+          {/* <SkillSection /> */}
           <TimelineSection />
           <FooterSection />
         </SidebarMenu>
