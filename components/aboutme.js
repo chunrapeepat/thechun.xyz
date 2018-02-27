@@ -62,7 +62,7 @@ export default class extends Component {
   render(){
     return(
       <Container>
-        <h1>{`Hello, I'm Chun Rapeepat, 18 years old full-stack developer from Thailand. Our mission is to build software for solving problems & expand the circle with communities.`}</h1>
+        <h1>{`Hello, I'm Chun Rapeepat, 18 years old full-stack developer from Thailand. My mission is to build software for solving problems & expand the circle with communities.`}</h1>
         <a target='_blank' href='https://facebook.com/chun42'>
           <Ink />
           <i className="zmdi zmdi-facebook-box"></i> FIND CHUN RAPEEPAT ON FACEBOOK
