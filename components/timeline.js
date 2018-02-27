@@ -82,49 +82,49 @@ export default class extends Component {
         <Card>
           <Ink />
           <h2><span>2009</span>First Personal Computer<div></div></h2>
-          <span>When I was in 5 grade, I got my first own personal computer with WindowsXP, 500GBs of hard disk and a 4GBs of RAM.</span>
+          <span>Got the first personal computer and I loved it until then.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2010 - 2011</span>Made a YouTube Channel<div></div></h2>
-          <span>Someday on YouTube. I watched the video posted by Fredrew. It was so fascinating. This made me learn a lot about how to do effect on the video using Adobe After Effects.</span>
+          <span>Making a YouTube channel with my brothers. This made me learn a lot about how to do effect on the video.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2011</span>Middle School<div></div></h2>
-          <span>Studied primary school at Bodindecha 2 School. In this school I have a lot of friends with variety of background and I meet some friends who loved computers like me.</span>
+          <span>Started studying primary school at Bodindecha 2 school.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2012</span>Started Programming Experience<div></div></h2>
-          <span>I started first programming experience when I was 14 years old. I started with HTML language because I make a Minecraft Server. and I wanted my own web page for promote it. Of course, I loved it. Then I started learning more in CSS, PHP & Javascript</span>
+          <span>I started first programming experience when I was 14 years old with PHP, Of course, I loved it. Then I started learning more in CSS, Java & Javascript</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2014 - 2015</span>Run a VPS Bussiness<div></div></h2>
-          <span>I had a pretty much strong knowledge about how to open Minecraft Server and I had a little budget. I decided to make my own business about Minecraft named MineShare. I rented a dedicated server (approx 120$ per month) with Vmware ESXI OS. then 6 months later. This business was shutdown. because I got a fucking DDOS everyday. GG T-T</span>
+          <span>I had a pretty much strong knowledge about how to open Minecraft Server. I decided to make my own business named MineShare - A VPS services - with my own budget, and 6 months later this was shutdown.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2015 - 2016</span>Web Developer Freelancer<div></div></h2>
-          <span>In 2015 - 2016, I am a freelance web developer. I made a Facebook fanpage and made a lot of websites such as VPS service website, webshop (web application) and more. I make a lot of money from this.</span>
+          <span>In 2015 - 2016, I am a freelancer in web development. I made a Facebook fanpage and made a lot of websites such as VPS service website, webshop (web application) and more. I make a lot of money from this.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2016</span>NoobProgramming YouTube Channel<div></div></h2>
-          <span>{`I created my new YouTube channel named NoobProgramming. I created this for a people who just started in computer programming and doesn't know how to go.`}</span>
+          <span>{`Making my new YouTube channel named NoobProgramming. I created this for a people who just started in computer programming and doesn't know how to go.`}</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2016</span>Torkla Project by SCB Foundation<div></div></h2>
-          <span>{`Fortunately, My friend at my middle school invited me to run a project (A video game made by Unity named Our Darkest Night) with him. In Tokla camp, I learned a lot from it. I learn how to do project management, UX, UI, I learned how to present and The most important is I met a variety of people who loved in what they did.`}</span>
+          <span>{`Fortunately, My friend at my middle school invited me to run a project (Our darkest night Project) with him. In Tokla camp, I learned a lot from it. I learn how to do project management, UX, UI, I learned how to present and The most important is I met a variety of people who loved in what they did.`}</span>
         </Card>
 
         <Card>
@@ -142,25 +142,25 @@ export default class extends Component {
         <Card>
           <Ink />
           <h2><span>2017</span>Stupid Hackathon Thailand<div></div></h2>
-          <span>Organise a Stupid Hackathon event at NabLab Bangkok, Thailand. Make stuff that no one needs and make terrible ideas come true!</span>
+          <span>Organise a Stupid Hackathon event at NabLab Bangkok, Thailand. with theme: Make stuff that no one needs and make terrible ideas come true!</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2017</span>KU-NAVI Project<div></div></h2>
-          <span>In Kasetsart University. I make a project with my friend call KU-NAVI (you can see on my Github). KU-NAVI is the web application that can helps you find place, location & bus line in university based on QRCode poster.</span>
+          <span>KU-NAVI is the web application that can helps you find place, location & bus-line in college based on QRCode poster.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2017</span>Internship at Acourse.io<div></div></h2>
-          <span>Software development internship traning at Acourse.io (e-learning online platform in cheap price), This made me learn a lot about Golang, Scrum and how to working with the team.</span>
+          <span>Software development internship traning at Acourse.io (e-learning online platform in cheap price), This made me learn a lot about Golang, Github and how to working with the team.</span>
         </Card>
 
         <Card>
           <Ink />
           <h2><span>2017</span>Teacher Assistant @CodeCampTH<div></div></h2>
-          <span>CodeCampTH (at Software Park) is a developer bootcamp that teaching web programming technologies & tools. I got an opportunity to work on this for 5 days and that earn me for 5,000 THB (approx 155$). Nice~</span>
+          <span>CodeCampTH (at Software Park) is a developer bootcamp that teaching web programming technologies & tools. I got an opportunity to work on this for 5 days and that earn me for 5,000 THB (approx 155$).</span>
         </Card>
 
         <Card>
@@ -172,7 +172,7 @@ export default class extends Component {
         <Card>
           <Ink />
           <h2><span>2018</span>Young Webmaster Camp 15<div></div></h2>
-          <span>HNY 2018 with the greatest camp forever. YWC is a webmaster camp that separates all candidates into 4 sections (programming, marketting, design, content). I made a lot of friends & connections. I do a startup project with my friends called RARTY and I love it.</span>
+          <span>HNY 2018 with the greatest web camp. YWC is a webmaster camp that separates all candidates into 4 fields (programming, marketting, design, content). I was in programming field and working on #RARTY project.</span>
         </Card>
 
       </Container>
