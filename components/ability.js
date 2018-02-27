@@ -88,18 +88,19 @@ export default class extends Component {
               <center>
                 <Macbook src='/static/macbook.png' />
               </center>
-              <Heading>My Personal Skills</Heading>
+              <br/>
+              <Heading>Personal Skills</Heading>
               <ContentSkillContainer>
-                <h2>COMPUTER SKILLS</h2>
-                <span>PHP, Javascript, Modern Javascript, HTML5, CSS, SQL, Java, Python, NodeJS, ExpressJS, React & Redux, React Native, MongoDB, Socket.IO, Basic Machine Learning, Docker & Golang</span>
+                <h2>EXPERIENCED SKILLS</h2>
+                <span>Web Development (Frontend & Backend), Software Development, Modern Javascript, Computer Science, Working Process, Blog Writing, Communities</span>
               </ContentSkillContainer>
               <ContentSkillContainer>
-                <h2>ORTHER SKILLS</h2>
-                <span>Programming Instructor, Basic Photoshop, Minecraft, ScreenFlow, Blog Writting & Bussiness Knowledge</span>
+                <h2>EXTRA SKILLS</h2>
+                <span>Problem Solving, Mathematic, Algorithm, Innovation, Self Development, Minecraft, Counter-Strike, Badminton</span>
               </ContentSkillContainer>
               <ContentSkillContainer>
                 <h2>INTERESTED IN</h2>
-                <span>Machine Learning & Deep Learning, StartUp, Bussiness, Mathematic, Web Technology, Design, Google, Computer Technology, Internet of Things, Operating System, Self Development, Networking, Cloud Computing & Computer Science</span>
+                <span>All above and Artificial Intelligent, Books, Web Technology, Design, People, Computer Programming, Startup, Communities, Events, Anime, Steve jobs, Google</span>
               </ContentSkillContainer>
             </ContentSection>
             <SideMacbook src='/static/macbook.png' />
