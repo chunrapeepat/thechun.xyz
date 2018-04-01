@@ -9,6 +9,9 @@ import FooterSection from '../components/footer'
 import TimelineSection from '../components/timeline'
 import IntroductionSection from '../components/introduction'
 
+// April Fool's Day 2018
+import Hacked from '../components/element/Hacked'
+
 import GotoTop from '../components/gototop'
 
 const Container = styled.div`
@@ -36,15 +39,15 @@ export default class extends React.Component {
     return(
       <Container
         scale={this.state.scale}>
-        <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
+        <Hacked />
+        {/* <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
           <GotoTop />
           <IntroductionSection />
           <AboutmeSection />
           <AbilitySection />
-          {/* <SkillSection /> */}
           <TimelineSection />
           <FooterSection />
-        </SidebarMenu>
+        </SidebarMenu> */}
       </Container>
     )
   }
