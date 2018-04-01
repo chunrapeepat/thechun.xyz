@@ -27,11 +27,11 @@ const Container = styled.div`
   & > span {
     font-family: sans-serif;
     font-size: 18px;
-    color: #888;
+    color: #555;
     display: block;
     margin-top: 20px;
+    cursor: pointer;
   }
-  
 `
 
 export default class extends Component {
@@ -42,7 +42,7 @@ export default class extends Component {
         <div>
           THIS SITE HAS BEEN HACKED!!!
         </div>
-        <span>Hacked by thechun.xyz</span>
+        <span>Hacked by Chun Rapeepat</span>
       </Container>
     )
   }

@@ -40,14 +40,14 @@ export default class extends React.Component {
       <Container
         scale={this.state.scale}>
         <Hacked />
-        {/* <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
+        <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
           <GotoTop />
           <IntroductionSection />
           <AboutmeSection />
           <AbilitySection />
           <TimelineSection />
           <FooterSection />
-        </SidebarMenu> */}
+        </SidebarMenu>
       </Container>
     )
   }
