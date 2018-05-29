@@ -10,7 +10,7 @@ import TimelineSection from '../components/timeline'
 import IntroductionSection from '../components/introduction'
 
 // April Fool's Day 2018
-import Hacked from '../components/element/Hacked'
+// import Hacked from '../components/element/Hacked'
 
 import GotoTop from '../components/gototop'
 
@@ -39,7 +39,6 @@ export default class extends React.Component {
     return(
       <Container
         scale={this.state.scale}>
-        <Hacked />
         <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
           <GotoTop />
           <IntroductionSection />
