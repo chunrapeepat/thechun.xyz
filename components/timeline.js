@@ -187,6 +187,12 @@ export default class extends Component {
           <span>Startup Thailand is the biggest startup event in Asia. so I decided to attend hackathon with the idea about the application to pre-order food from food-center and we call it `fastfood`.</span>
         </Card>
 
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Attended KU Startup Bootcamp #2<div></div></h2>
+          <span>KU Startup Bootcamp is a startup camp hosted by KU startup club. My team came with the idea of smart farming service and we call it `agriservice`, and finally, my team got the first prize :P</span>
+        </Card>
+
       </Container>
     )
   }
