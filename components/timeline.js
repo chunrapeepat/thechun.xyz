@@ -181,6 +181,12 @@ export default class extends Component {
           <span>Organize Junior Webmaster Camp: Nextstep Web Thai (JWCx) as Web Developer, Teacher in programming field and Techniques with 30+ friends from YWC.</span>
         </Card>
 
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Attended Startup Thailand Hackathon 2018<div></div></h2>
+          <span>Startup Thailand is the biggest startup event in Asia. so I decided to attend hackathon with the idea about the application to pre-order food from food-center and we call it `fastfood`.</span>
+        </Card>
+
       </Container>
     )
   }
