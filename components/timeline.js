@@ -141,8 +141,8 @@ export default class extends Component {
 
         <Card>
           <Ink />
-          <h2><span>2017</span>Stupid Hackathon Thailand<div></div></h2>
-          <span>Organise a Stupid Hackathon event at NabLab Bangkok, Thailand. with theme: Make stuff that no one needs and make terrible ideas come true!</span>
+          <h2><span>2017</span>Organize Stupid Hackathon Thailand<div></div></h2>
+          <span>Organize a Stupid Hackathon event at NabLab Bangkok, Thailand. with theme: Make stuff that no one needs and make terrible ideas come true!</span>
         </Card>
 
         <Card>
@@ -173,6 +173,12 @@ export default class extends Component {
           <Ink />
           <h2><span>2018</span>Young Webmaster Camp 15<div></div></h2>
           <span>HNY 2018 with the greatest web camp. YWC is a webmaster camp that separates all candidates into 4 fields (programming, marketting, design, content). I was in programming field and working on #RARTY project.</span>
+        </Card>
+
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Organize Junior Webmaster Camp #10<div></div></h2>
+          <span>Organize Junior Webmaster Camp: Nextstep Web Thai (JWCx) as Web Developer, Teacher in programming field and Techniques with 30+ friends from YWC.</span>
         </Card>
 
       </Container>
