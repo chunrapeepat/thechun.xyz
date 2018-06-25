@@ -22,13 +22,13 @@ const SlideBackground = styled.div`
     height: 300px;
     background: red;
     z-index: 999;
-    background: url(/static/wallpaper.jpg) repeat-x;
+    background: url(/static/wallpaper.gif) repeat-x;
     background-size: 100% auto;
 
     @media (min-width: 1190px) {
       height: 500px;
-      animation: ${slideAnimation} 40s linear infinite;
-      animation-direction: alternate;
+      ${'' /* animation: ${slideAnimation} 40s linear infinite;
+      animation-direction: alternate; */}
     }
 `
 
@@ -107,8 +107,8 @@ export default class extends Component {
         <MainContainer>
             <SlideBackground />
             <Container>
-              <h1>Make The World Suck <span style={{'cursor': 'pointer'}} onClick={() => this.toggleActive()}>{this.state.active ? 'Less' : 'More'}</span></h1>
-              <span>{`Full-stack developer, Solving problem & Making communities.`}</span>
+              <h1><span style={{'cursor': 'pointer'}} onClick={() => this.toggleActive()}>{this.state.active ? 'Make The World Suck Less' : 'Be Asshole.'}</span></h1>
+              <span>{`Full-stack developer, Solving problems & Making communities.`}</span>
             </Container>
         </MainContainer>
     )
