@@ -193,6 +193,12 @@ export default class extends Component {
           <span>KU Startup Bootcamp is a startup camp hosted by KU startup club. My team came with the idea of smart farming service and we call it `agriservice`, and finally, my team got the first prize :P</span>
         </Card>
 
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Attended Techsauce Global Summit 2018<div></div></h2>
+          <span>I'd have an opportunity to get into Techsauce which is the largest tech event in Asia at Centara Grand Bangkok. There are so many startup booths and talking stage which mostly talk about Blockchain & AI.</span>
+        </Card>
+
       </Container>
     )
   }
