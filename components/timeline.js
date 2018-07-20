@@ -199,6 +199,12 @@ export default class extends Component {
           <span>I'd have an opportunity to get into Techsauce which is the largest tech event in Asia at Centara Grand Bangkok. There are so many startup booths and talking stage which mostly talk about Blockchain & AI.</span>
         </Card>
 
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Organize Stupid Hackathon Thailand #2<div></div></h2>
+          <span>Attended Stupid Hackathon #2 at LINK co-working space as both candidates and organizer. This times we reach over 100 candidates and get more sponsors than before. It was very fun and I made a lot of friends there.</span>
+        </Card>
+
       </Container>
     )
   }
