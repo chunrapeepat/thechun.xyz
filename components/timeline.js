@@ -205,6 +205,12 @@ export default class extends Component {
           <span>Attended Stupid Hackathon #2 at LINK co-working space as both candidates and organizer. This times we reach over 100 candidates and get more sponsors than before. It was very fun and I made a lot of friends there.</span>
         </Card>
 
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Attended Young Startup Leader Camp<div></div></h2>
+          <span>Young startup leader camp by YEAH. Team building, Leadership, Startup Community & Nice Workshop</span>
+        </Card>
+
       </Container>
     )
   }
