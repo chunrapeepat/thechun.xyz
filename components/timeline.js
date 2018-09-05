@@ -183,7 +183,7 @@ export default class extends Component {
 
         <Card>
           <Ink />
-          <h2><span>2018</span>Attended Startup Thailand Hackathon 2018<div></div></h2>
+          <h2><span>2018</span>Attended Startup Thailand Hackathon<div></div></h2>
           <span>Startup Thailand is the biggest startup event in Asia. so I decided to attend hackathon with the idea about the application to pre-order food from food-center and we call it `fastfood`.</span>
         </Card>
 
@@ -203,6 +203,18 @@ export default class extends Component {
           <Ink />
           <h2><span>2018</span>Organize Stupid Hackathon Thailand #2<div></div></h2>
           <span>Attended Stupid Hackathon #2 at LINK co-working space as both candidates and organizer. This times we reach over 100 candidates and get more sponsors than before. It was very fun and I made a lot of friends there.</span>
+        </Card>
+
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Attended Young Startup Leader Camp<div></div></h2>
+          <span>Young startup leader camp by YEAH. Team building, Leadership, Startup Community & Nice Workshop</span>
+        </Card>
+
+        <Card>
+          <Ink />
+          <h2><span>2018</span>Founded Abacuz Developer Group<div></div></h2>
+          <span>Abacuz Developer Group is the developer club at Kasetsart University. (Community, knowledge, Experience)</span>
         </Card>
 
       </Container>
