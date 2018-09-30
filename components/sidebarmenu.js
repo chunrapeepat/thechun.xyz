@@ -8,7 +8,7 @@ const SidebarMenuContainer = styled.div`
   ${this} > div:nth-child(1) {
     width: 250px;
     position: fixed;
-    height: 100vh;
+    height: 100%;
     background-color: black;
 
     @media (max-width: 1190px) {
@@ -102,7 +102,6 @@ const ResponsiveMenu = styled.div`
 `
 
 export default class extends Component {
-
   constructor(){
     super()
     this.state = {
