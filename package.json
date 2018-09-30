@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
+    "refactor": "prettier --config prettier.config.js --write \"**/**/*.js\" --ignore-path .prettierignore",
     "deploy": "scp -r /Users/chunza2542/Documents/thechun.xyz/out root@thechun.xyz:/opt/web/out"
   },
   "author": "Chun Rapeepat",
