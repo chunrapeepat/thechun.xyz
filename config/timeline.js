@@ -156,7 +156,7 @@ export default [
     ref: "",
   },
   {
-    year: "",
+    year: "2018",
     header: "Attended KU Startup Bootcamp #2",
     content:
       "KU Startup Bootcamp is a startup camp hosted by KU startup club. My team came with the idea of smart farming service and we call it `agriservice`, and finally, my team got the first prize :P",
@@ -164,7 +164,7 @@ export default [
     ref: "",
   },
   {
-    year: "",
+    year: "2018",
     header: "Attended Techsauce Global Summit 2018",
     content:
       "I'd have an opportunity to get into Techsauce which is the largest tech event in Asia at Centara Grand Bangkok. There are so many startup booths and talking stage which mostly talk about Blockchain & AI.",
@@ -173,7 +173,7 @@ export default [
     ref: "",
   },
   {
-    year: "",
+    year: "2018",
     header: "Organize Stupid Hackathon Thailand #2",
     content:
       "Attended Stupid Hackathon #2 at LINK co-working space as both candidates and organizer. This times we reach over 100 candidates and get more sponsors than before. It was very fun and I made a lot of friends there.",
@@ -182,7 +182,7 @@ export default [
     ref: "",
   },
   {
-    year: "",
+    year: "2018",
     header: "Attended Young Startup Leader Camp",
     content:
       "Young startup leader camp by YEAH. Team building, Leadership, Startup Community & Nice Workshop",
@@ -191,7 +191,7 @@ export default [
     ref: "",
   },
   {
-    year: "",
+    year: "2018",
     header: "Founded Abacuz Developer Group",
     content:
       "Abacuz Developer Group is the developer club at Kasetsart University. (Community, knowledge, Experience)",
