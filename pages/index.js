@@ -2,15 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 
 import SidebarMenu from '../components/sidebarmenu'
-import SkillSection from '../components/skill'
 import AboutmeSection from '../components/aboutme'
 import AbilitySection from '../components/ability'
 import FooterSection from '../components/footer'
 import TimelineSection from '../components/timeline'
 import IntroductionSection from '../components/introduction'
-
-// April Fool's Day 2018
-// import Hacked from '../components/element/Hacked'
 
 import GotoTop from '../components/gototop'
 
