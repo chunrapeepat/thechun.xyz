@@ -91,16 +91,16 @@ export default class extends Component {
               <br/>
               <Heading>Personal Skills</Heading>
               <ContentSkillContainer>
-                <h2>EXPERIENCED SKILLS</h2>
-                <span>Web Development (Frontend & Backend), Software Development, Modern Javascript, Computer Science, Working Process, Blog Writing, Communities</span>
+                <h2>PROGRAMMING SKILLS</h2>
+                <span>ReactJS, Golang, NodeJS, NextJS, HTML5 & CSS, Java, C Programming, Docker, Kubernates, Vim, Github, Unix, Computer Science</span>
               </ContentSkillContainer>
               <ContentSkillContainer>
                 <h2>EXTRA SKILLS</h2>
-                <span>Problem Solving, Mathematic, Algorithm, Innovation, Self Development, Minecraft, Counter-Strike, Badminton</span>
+                <span>Blog Writing, Communities Making, Mathematic, Algorithm, Self Development, Badminton, Running, Guitar Playing</span>
               </ContentSkillContainer>
               <ContentSkillContainer>
                 <h2>INTERESTED IN</h2>
-                <span>All above and Artificial Intelligent, Books, Web Technology, Design, People, Computer Programming, Startup, Communities, Events, Anime, Steve jobs, Google</span>
+                <span>Deep Learning, Blockchain, Books, Web Technology, Design, People, Music, History, Communities</span>
               </ContentSkillContainer>
             </ContentSection>
             <SideMacbook src='/static/macbook.png' />
