@@ -66,6 +66,12 @@ const Card = styled.div`
 `
 
 export default class extends Component {
+  componentDidMount() {
+    if (window !== undefined) {
+      window.timelines = timelines
+    }
+  }
+  
   render(){
     return(
       <Container>
