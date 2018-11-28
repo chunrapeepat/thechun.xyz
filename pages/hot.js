@@ -5,7 +5,7 @@ class Hotlink extends Component {
         const url = window.location.href || ""
         const query = url.split('#')[url.split('#').length - 1]
 
-        if (query === "linear-algrebra") {
+        if (query === "final-linear") {
             window.location.href = 'http://bit.ly/2DOkjvV'
         }
     }
