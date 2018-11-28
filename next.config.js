@@ -1,6 +1,7 @@
 module.exports = {
   exportPathMap: () => ({
-    "/": {page: "/"}
+    "/": {page: "/"},
+    "/hotlink": {page: "/hotlink"},
   })
 }
 
