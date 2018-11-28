@@ -10,7 +10,7 @@ class Hotlink extends Component {
         }
     }
 
-    render = () => (<div>Hotlink Not Found.</div>)
+    render = () => (<div>Welcome to thechun.xyz hotlink, Loading...</div>)
 }
 
 export default Hotlink;
