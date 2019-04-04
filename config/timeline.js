@@ -224,4 +224,9 @@ export default [
     header: "Give a Talk at Talk 'n chip",
     content: "Here is my first talk on the Tech event with around 20-30 attendees. I talk about my experience when I'm on high-school and make money as a Web developer (Freelance)."
   },
+  {
+    year: "2019",
+    header: "Organised Young Creator's Camp",
+    content: "Young Creator's Camp (YCC) is the 3-days camp that brings students together and teaches them about the product design process and pitching skill. My roles is planning the camp outline and teaching about Design Thinking and Task management."
+  },
 ];
