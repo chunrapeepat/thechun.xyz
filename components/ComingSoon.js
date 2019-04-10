@@ -24,7 +24,7 @@ const BlinkAnimation = keyframes`
 const Visit = styled.div`
     position: absolute;
     left: 50%;
-    bottom: 10vh;
+    bottom: 20vh;
     transform: translateX(-50%);
     color: white;
     cursor: pointer;
