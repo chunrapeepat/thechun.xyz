@@ -9,6 +9,7 @@ import TimelineSection from '../components/timeline'
 import IntroductionSection from '../components/introduction'
 
 import GotoTop from '../components/gototop'
+import ComingSoon from "../components/ComingSoon"
 
 const Container = styled.div`
   filter: grayscale(${props => props.scale});
@@ -33,17 +34,20 @@ export default class extends React.Component {
 
   render(){
     return(
-      <Container
-        scale={this.state.scale}>
-        <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
-          <GotoTop />
-          <IntroductionSection />
-          <AboutmeSection />
-          <AbilitySection />
-          <TimelineSection />
-          <FooterSection />
-        </SidebarMenu>
-      </Container>
+      <div>
+        <ComingSoon />
+        <Container
+          scale={this.state.scale}>
+          <SidebarMenu lightFunction={() => this.toggleGrayscale()}>
+            <GotoTop />
+            <IntroductionSection />
+            <AboutmeSection />
+            <AbilitySection />
+            <TimelineSection />
+            <FooterSection />
+          </SidebarMenu>
+        </Container>
+      </div>
     )
   }
 }
