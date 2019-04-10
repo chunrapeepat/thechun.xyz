@@ -49,6 +49,23 @@ class ThreeLogo extends Component {
         directionalLight.position.x = 3;
         this.scene.add(directionalLight);
 
+        // Adding Star as a Background
+        const starsGeometry = new THREE.Geometry();
+
+        for (let i = 0; i < 10000; i++) {
+	        const star = new THREE.Vector3();
+	        star.x = THREE.Math.randFloatSpread(1500);
+	        star.y = THREE.Math.randFloatSpread(1500);
+            star.z = THREE.Math.randFloatSpread(1500);
+
+	        starsGeometry.vertices.push(star);
+        }
+
+        const starsMaterial = new THREE.PointsMaterial({color: 0xffff00});
+        const starField = new THREE.Points(starsGeometry, starsMaterial);
+
+        this.scene.add(starField);
+
         // Loading Rocket
         const loader = new OBJLoader();
         const mtlLoader = new MTLLoader();
@@ -109,7 +126,7 @@ class ThreeLogo extends Component {
         return (
             <Rocket>
                 <div
-                    style={{width: '1000px', height: '800px'}}
+                    style={{width: `${window.innerWidth}px`, height: `${window.innerHeight}px`}}
                     ref={(mount) => {this.mount = mount}} />
             </Rocket>
         )
