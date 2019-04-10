@@ -21,6 +21,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-ink": "^6.2.0",
-    "styled-components": "2.0.0"
+    "styled-components": "2.0.0",
+    "three": "^0.103.0"
   }
 }
