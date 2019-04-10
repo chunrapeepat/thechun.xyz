@@ -29,7 +29,7 @@ const Visit = styled.div`
     color: white;
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #ccc;
     text-align: center;
     width: 100vw;
@@ -38,7 +38,7 @@ const Visit = styled.div`
     animation: ${BlinkAnimation} 0.7s linear infinite;
 
     @media (max-width: 1190px) {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 `
 
@@ -52,7 +52,7 @@ const Quote = styled.div`
     font-family: 'Orbitron', sans-serif;
 
     @media (max-width: 1190px) {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 `
 
