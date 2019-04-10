@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
 import ThreeLogo from './ThreeLogo';
 
 const Container = styled.div`
@@ -11,6 +11,15 @@ const Container = styled.div`
     background: black;
     z-index: 999999;
 `
+const BlinkAnimation = keyframes`
+  from {
+      color: white;
+  }
+
+  to {
+      color: black;
+  }
+`;
 
 const Visit = styled.div`
     position: absolute;
@@ -25,6 +34,8 @@ const Visit = styled.div`
     text-align: center;
     width: 100vw;
     font-family: 'Press Start 2P', cursive;
+
+    animation: ${BlinkAnimation} 0.7s linear infinite;
 
     @media (max-width: 1190px) {
         font-size: 1.2rem;
