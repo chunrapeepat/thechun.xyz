@@ -121,6 +121,9 @@ class ThreeLogo extends Component {
         this.starField.rotation.y = this.state.tick / 50;
         this.starField.rotation.z = -this.state.tick / 100;
 
+        // Camera Animation
+        this.camera.position.z = 7 + Math.cos(this.state.tick / 10) * 5;
+
         this.setState({tick: this.state.tick + 0.05});
     }
 
@@ -129,6 +132,10 @@ class ThreeLogo extends Component {
     }
 
     render() {
+        if (!process.browser) {
+            return <div>Error</div>
+        }
+        
         return (
             <Rocket>
                 <div
