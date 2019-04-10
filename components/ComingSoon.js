@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import ThreeLogo from './ThreeLogo';
 
 const Container = styled.div`
     position: fixed;
@@ -33,6 +34,7 @@ class ComingSoon extends React.Component {
 
         return (
             <Container style={{display: show ? "block" : "none"}}>
+                <ThreeLogo /> 
                 <Visit onClick={() => this.setState({show: false})}>Click To Enter Website (OLD)</Visit>
             </Container>
         )
