@@ -42,6 +42,20 @@ const Visit = styled.div`
     }
 `
 
+const Quote = styled.div`
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #777;
+    font-size: 1.4rem;
+    z-index: 999;
+    font-family: 'Orbitron', sans-serif;
+
+    @media (max-width: 1190px) {
+        font-size: 1rem;
+    }
+`
+
 class ComingSoon extends React.Component {
     state = {
         show: true,
@@ -52,6 +66,11 @@ class ComingSoon extends React.Component {
 
         return (
             <Container style={{display: show ? "block" : "none"}}>
+                <Quote>
+                    CHUN'S NEW SITE IS COMING SOON<br/>
+                    UNDER CONSTRUCTION...
+                </Quote>
+
                 <ThreeLogo /> 
                 <Visit onClick={() => this.setState({show: false})}>CLICK TO ENTER OLD-SITE</Visit>
             </Container>

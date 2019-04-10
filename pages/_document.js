@@ -24,6 +24,7 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"></link>
+          <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"></link>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
           <meta name="viewport" content="width=device-width" />
 
