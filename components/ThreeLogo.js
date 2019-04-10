@@ -44,8 +44,8 @@ class ThreeLogo extends Component {
         this.light = light;
 
         const directionalLight = new THREE.DirectionalLight(0xffffff, 1.2);
-        directionalLight.position.z = 4;
-        directionalLight.position.y = -2;
+        directionalLight.position.z = 3;
+        directionalLight.position.y = 3;
         directionalLight.position.x = 3;
         this.scene.add(directionalLight);
 
@@ -63,6 +63,8 @@ class ThreeLogo extends Component {
 
         const starsMaterial = new THREE.PointsMaterial({color: 0xffff00});
         const starField = new THREE.Points(starsGeometry, starsMaterial);
+
+        this.starField = starField;
 
         this.scene.add(starField);
 
@@ -114,6 +116,10 @@ class ThreeLogo extends Component {
 
         // Light
         this.light.intensity = Math.cos(this.state.tick) + 0.3;
+
+        // Star Animation
+        this.starField.rotation.y = this.state.tick / 50;
+        this.starField.rotation.z = -this.state.tick / 100;
 
         this.setState({tick: this.state.tick + 0.05});
     }
