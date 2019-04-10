@@ -1,6 +1,14 @@
 import React, {Component} from "react";
 import * as THREE from 'three';
 import {MTLLoader, OBJLoader} from 'three-obj-mtl-loader'
+import styled from "styled-components";
+
+const Rocket = styled.div`
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+`
 
 class ThreeLogo extends Component {
     componentDidMount() {
@@ -46,9 +54,9 @@ class ThreeLogo extends Component {
 
             loader.load("/static/rocket.obj", rocket => {
                 this.scene.add(rocket);
-                rocket.scale.x = 0.1;
-                rocket.scale.y = 0.1;
-                rocket.scale.z = 0.1;
+                rocket.scale.x = 0.15;
+                rocket.scale.y = 0.15;
+                rocket.scale.z = 0.15;
 
                 this.rocket = rocket;
             })
@@ -84,9 +92,11 @@ class ThreeLogo extends Component {
 
     render() {
         return (
-            <div
-                style={{width: '1000px', height: '800px'}}
-                ref={(mount) => {this.mount = mount}} />
+            <Rocket>
+                <div
+                    style={{width: '1000px', height: '800px'}}
+                    ref={(mount) => {this.mount = mount}} />
+            </Rocket>
         )
     }
   }
