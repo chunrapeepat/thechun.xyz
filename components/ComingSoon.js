@@ -22,6 +22,13 @@ const Visit = styled.div`
     font-family: sans-serif;
     font-size: 1.8rem;
     color: #ccc;
+    text-align: center;
+    width: 100vw;
+    font-family: 'Press Start 2P', cursive;
+
+    @media (max-width: 1190px) {
+        font-size: 1.2rem;
+    }
 `
 
 class ComingSoon extends React.Component {
@@ -35,7 +42,7 @@ class ComingSoon extends React.Component {
         return (
             <Container style={{display: show ? "block" : "none"}}>
                 <ThreeLogo /> 
-                <Visit onClick={() => this.setState({show: false})}>Click To Enter Website (OLD)</Visit>
+                <Visit onClick={() => this.setState({show: false})}>CLICK TO ENTER OLD-SITE</Visit>
             </Container>
         )
     }
