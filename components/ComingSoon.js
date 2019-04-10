@@ -11,11 +11,29 @@ const Container = styled.div`
     z-index: 999999;
 `
 
+const Visit = styled.div`
+    position: absolute;
+    left: 50%;
+    bottom: 10vh;
+    transform: translateX(-50%);
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    color: #ccc;
+`
+
 class ComingSoon extends React.Component {
+    state = {
+        show: true,
+    }
+
     render() {
+        const {show} = this.state;
+
         return (
-            <Container>
-                Comming Soon
+            <Container style={{display: show ? "block" : "none"}}>
+                <Visit onClick={() => this.setState({show: false})}>Click To Enter Website (OLD)</Visit>
             </Container>
         )
     }
