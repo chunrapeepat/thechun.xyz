@@ -11,6 +11,10 @@ const Rocket = styled.div`
 `
 
 class ThreeLogo extends Component {
+    state = {
+        tick: 1,
+    }
+
     componentDidMount() {
         const width = this.mount.clientWidth
         const height = this.mount.clientHeight
@@ -37,6 +41,7 @@ class ThreeLogo extends Component {
         const light = new THREE.PointLight(0xff0000, 1, 100);
         light.position.set(10, 10, 10);
         this.scene.add(light);
+        this.light = light;
 
         const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
         directionalLight.position.z = 4;
@@ -84,6 +89,13 @@ class ThreeLogo extends Component {
     animate = () => {
         this.renderScene()
         this.frameId = window.requestAnimationFrame(this.animate)
+
+        // Rocket Rotation
+        this.rocket.rotation.x = Math.cos(this.state.tick) * 0.05;
+        this.rocket.rotation.y = Math.sin(this.state.tick) * 0.1 - this.state.tick / 10;
+        this.rocket.rotation.z = Math.sin(this.state.tick) * 0.05;
+
+        this.setState({tick: this.state.tick + 0.05});
     }
 
     renderScene = () => {
