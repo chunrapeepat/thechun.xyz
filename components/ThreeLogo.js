@@ -39,11 +39,11 @@ class ThreeLogo extends Component {
 
         // Adding Light
         const light = new THREE.PointLight(0xff0000, 1, 100);
-        light.position.set(10, 10, 10);
+        light.position.set(5, 5, 5);
         this.scene.add(light);
         this.light = light;
 
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 1.2);
         directionalLight.position.z = 4;
         directionalLight.position.y = -2;
         directionalLight.position.x = 3;
@@ -92,8 +92,11 @@ class ThreeLogo extends Component {
 
         // Rocket Rotation
         this.rocket.rotation.x = Math.cos(this.state.tick) * 0.05;
-        this.rocket.rotation.y = Math.sin(this.state.tick) * 0.1 - this.state.tick / 10;
+        this.rocket.rotation.y = - this.state.tick / 10;
         this.rocket.rotation.z = Math.sin(this.state.tick) * 0.05;
+
+        // Light
+        this.light.intensity = Math.cos(this.state.tick) + 0.3;
 
         this.setState({tick: this.state.tick + 0.05});
     }
